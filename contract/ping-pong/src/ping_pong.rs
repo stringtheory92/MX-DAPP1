@@ -144,3 +144,10 @@ pub trait PingPong {
     #[event("pongEvent")]
     fn pong_event(&self, #[indexed] user: &ManagedAddress);
 }
+
+
+// Transactions:
+
+// 2/8
+// INFO:cli.contracts:Contract address: erd1qqqqqqqqqqqqqpgqzulv5eu5gxnnxg65m55vzwacfcn9xkhvm5qqgfajf6
+// INFO:transactions:Hash: ac0e0d0fd5640f2e4776a3dde775676ef3722ff813e742fd464ce6c1253aa9b1
